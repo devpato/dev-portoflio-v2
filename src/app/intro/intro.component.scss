@@ -45,7 +45,7 @@
     width: 40%;
     height: 100%;
     .cloud--one {
-      height: 100vh;
+      height: calc(100vh - 60px);
       position: absolute;
       left: 0;
       top: 60px;

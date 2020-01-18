@@ -1,0 +1,135 @@
+// About logo style
+
+.cls-1 {
+  fill: none;
+}
+.cls-2 {
+  isolation: isolate;
+}
+.cls-3 {
+  fill: #311e3b;
+}
+.cls-16,
+.cls-3 {
+  opacity: 0.25;
+}
+.cls-13,
+.cls-16,
+.cls-3 {
+  mix-blend-mode: multiply;
+}
+.cls-4 {
+  fill: #fff;
+}
+.cls-5 {
+  fill: #27262f;
+}
+.cls-6 {
+  fill: #f9fbfc;
+}
+.cls-7 {
+  fill: #ffd157;
+}
+.cls-8 {
+  fill: #06b8ff;
+}
+.cls-9 {
+  fill: #382734;
+}
+.cls-10 {
+  fill: #e3ebf2;
+}
+.cls-11 {
+  fill: #8eaac2;
+}
+.cls-12 {
+  fill: #44515c;
+}
+.cls-13 {
+  fill: #52284a;
+  opacity: 0.1;
+}
+.cls-14 {
+  fill: #fff9f2;
+  opacity: 0.15;
+}
+.cls-14,
+.cls-15 {
+  mix-blend-mode: overlay;
+}
+.cls-15 {
+  fill: #fff7f7;
+  opacity: 0.5;
+}
+.cls-16 {
+  fill: #492659;
+}
+.cls-17 {
+  opacity: 0.8;
+}
+.cls-18 {
+  clip-path: url(#clip-path);
+}
+
+section {
+  height: 600px;
+  padding: 16px 0;
+  .title {
+    text-align: center;
+    span {
+      font-size: 42px;
+      color: #006a80;
+      font-weight: 800;
+      padding: 0 0 4px 0;
+      border-bottom: 1px solid #006a80;
+    }
+  }
+  .body {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+
+    & > div {
+      width: 50%;
+    }
+
+    &--left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+
+      p {
+        width: 80%;
+        font-size: 16px;
+      }
+    }
+
+    &--right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      .about-logo {
+        height: 400px;
+      }
+    }
+  }
+}
+
+.hackathons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    svg {
+        height: 200px;
+    }
+    .azalea svg{
+        .cls-1{opacity:0.2;}.cls-2{fill:#2c2f33;}.cls-3,.cls-8{fill:none;}.cls-3{stroke:#fff;stroke-miterlimit:10;stroke-width:12px;}.cls-4{fill:#ffbe3b;}.cls-5{fill:#22b0ff;}.cls-6,.cls-7{fill:#fff;}.cls-7{font-size:32.09px;font-family:Bahiana-Regular, Bahiana Regular;}.cls-9{fill:#738d91;}
+    }
+
+    .csx svg {
+        .cls-1{opacity:0.2;}.cls-2{fill:#2c2f33;}.cls-3,.cls-5{fill:none;}.cls-3{stroke:#fff;stroke-miterlimit:10;stroke-width:12px;}.cls-4{fill:#22b0ff;}.cls-6{fill:#fff;}.cls-7{fill:#ffbe3b;}.cls-8{fill:#738d91;}
+    }
+}

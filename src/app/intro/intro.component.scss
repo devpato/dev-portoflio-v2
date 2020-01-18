@@ -124,8 +124,9 @@
       position: absolute;
       top: 60px;
       right: 0%;
-      height: calc(100vh - 100px);
+      height: calc(100vh - 60px);
       animation: grows 3s ease-in-out;
+      //display: none;
     }
   }
 }

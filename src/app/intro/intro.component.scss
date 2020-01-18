@@ -1,6 +1,130 @@
+@import "../shared/styles/variables";
+
 .intro {
+  height: calc(100vh - 60px);
+  // background: #0c0c33; /* Old browsers */
+  // background: -moz-radial-gradient(
+  //   center,
+  //   ellipse cover,
+  //   #0c0c33 0%,
+  //   #0c0c33 24%,
+  //   #0e0d3e 48%,
+  //   #0d0d3b 64%,
+  //   #0c0c33 76%,
+  //   #0c0c33 100%
+  // ); /* FF3.6-15 */
+  // background: -webkit-radial-gradient(
+  //   center,
+  //   ellipse cover,
+  //   #0c0c33 0%,
+  //   #0c0c33 24%,
+  //   #0e0d3e 48%,
+  //   #0d0d3b 64%,
+  //   #0c0c33 76%,
+  //   #0c0c33 100%
+  // ); /* Chrome10-25,Safari5.1-6 */
+  // background: radial-gradient(
+  //   ellipse at center,
+  //   #0c0c33 0%,
+  //   #0c0c33 24%,
+  //   #0e0d3e 48%,
+  //   #0d0d3b 64%,
+  //   #0c0c33 76%,
+  //   #0c0c33 100%
+  // ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c0c33', endColorstr='#0c0c33',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-image: linear-gradient(
+    to right top,
+    #27262f,
+    #1f222c,
+    #161e28,
+    #0d1b23,
+    #02171e
+  );
   &--left {
+    width: 40%;
+    height: 100%;
+    .cloud--one {
+      height: 100vh;
+      position: absolute;
+      left: 0;
+      top: 60px;
+    }
+
+    .body {
+      position: absolute;
+      z-index: 1;
+      top: 20%;
+      left: 8%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .a-1--area {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .a-1 {
+          height: 240px;
+        }
+      }
+
+      .title {
+        font-size: 36px;
+        color: $primary-pink;
+        font-weight: 800;
+        margin: 16px 0;
+      }
+
+      .name {
+        font-size: 42px;
+        color: $primary-purple;
+        font-weight: 800;
+        margin: 16px 0;
+      }
+
+      .small-intro {
+        font-size: 18px;
+        color: $primary-grey;
+        font-weight: lighter;
+        margin: 16px 0;
+      }
+
+      .actions {
+        width: 100%;
+        display: flex;
+        button {
+          margin: 16px 16px 16px 0px;
+          background-color: $primary-purple;
+          color: white;
+          padding: 10px 20px;
+          background: $primary-purple;
+          border-radius: 500px;
+          border: 0;
+          cursor: pointer;
+
+          &:nth-child(2) {
+            background-color: $primary-pink;
+          }
+        }
+      }
+    }
   }
   &--right {
+    width: 60%;
+    height: 100%;
+    .cloud--two {
+      position: absolute;
+      top: 60px;
+      right: 0%;
+      height: 300px;
+    }
+
+    .stars {
+      position: absolute;
+      top: 60px;
+      right: 0%;
+      height: calc(100vh - 60px);
+    }
   }
 }

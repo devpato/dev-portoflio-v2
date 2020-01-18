@@ -124,7 +124,17 @@
       position: absolute;
       top: 60px;
       right: 0%;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 100px);
+      animation: grows 3s ease-in-out;
     }
+  }
+}
+
+@keyframes grows {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
   }
 }

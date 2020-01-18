@@ -1,0 +1,46 @@
+.cls-1 {
+  fill: #00120c;
+}
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6 {
+  fill-rule: evenodd;
+}
+.cls-2 {
+  fill: #fff;
+}
+.cls-3 {
+  fill: #f0999c;
+}
+.cls-4 {
+  fill: #7faab5;
+}
+.cls-5 {
+  fill: #004955;
+}
+.cls-6 {
+  fill: #006a80;
+}
+
+.astronaut {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  height: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

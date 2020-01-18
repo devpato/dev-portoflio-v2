@@ -132,5 +132,10 @@
       }
     }
   },
-  "defaultProject": "devpato-portfolio-v2"
+  "defaultProject": "devpato-portfolio-v2",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

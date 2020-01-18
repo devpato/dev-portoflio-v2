@@ -1,10 +1,30 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-    
-    li {
-        display: inline;
-    }
-}
+.navbar {
+  display: flex;
+  height: 46px;
+  -webkit-box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  padding: 0 8px;
+  justify-content: flex-end;
 
+  ul {
+    list-style-type: none;
+    margin: 0 16px;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin: 0 16px;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+
+      &:hover {
+        cursor: pointer;
+        background-color: purple;
+        border-radius: 500px;
+        color: white;
+      }
+    }
+  }
+}

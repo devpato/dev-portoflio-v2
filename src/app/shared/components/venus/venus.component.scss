@@ -1,0 +1,48 @@
+.venus-obj {
+  .cls-1 {
+    isolation: isolate;
+  }
+  .cls-2 {
+    fill: #ffd157;
+  }
+  .cls-3 {
+    fill: #ff837d;
+  }
+  .cls-4 {
+    fill: #c2674c;
+  }
+  .cls-5 {
+    fill: #f2c5ac;
+  }
+  .cls-6 {
+    fill: #de918e;
+  }
+  .cls-7 {
+    fill: #52284a;
+    opacity: 0.1;
+  }
+  .cls-10,
+  .cls-7 {
+    mix-blend-mode: multiply;
+  }
+  .cls-8 {
+    fill: #fff9f2;
+    opacity: 0.15;
+  }
+  .cls-8,
+  .cls-9 {
+    mix-blend-mode: overlay;
+  }
+  .cls-9 {
+    fill: #fff7f7;
+    opacity: 0.5;
+  }
+  .cls-10 {
+    fill: #492659;
+    opacity: 0.25;
+  }
+  .cls-11 {
+    fill: #382734;
+  }
+  height: 200px;
+}

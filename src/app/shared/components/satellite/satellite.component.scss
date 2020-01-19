@@ -1,0 +1,62 @@
+.cls-1 {
+  isolation: isolate;
+}
+.cls-2 {
+  fill: #e3ebf2;
+}
+.cls-3 {
+  fill: #ffd157;
+}
+.cls-4 {
+  fill: #44515c;
+}
+.cls-5 {
+  fill: #8eaac2;
+}
+.cls-6 {
+  fill: #52284a;
+  opacity: 0.1;
+}
+.cls-6,
+.cls-9 {
+  mix-blend-mode: multiply;
+}
+.cls-7 {
+  fill: #fff9f2;
+  opacity: 0.15;
+}
+.cls-7,
+.cls-8 {
+  mix-blend-mode: overlay;
+}
+.cls-8 {
+  fill: #fff7f7;
+  opacity: 0.5;
+}
+.cls-9 {
+  fill: #492659;
+  opacity: 0.25;
+}
+.cls-10 {
+  fill: #382734;
+}
+.cls-11 {
+  fill: #06b8ff;
+}
+
+.satellite-obj {
+  height: 200px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

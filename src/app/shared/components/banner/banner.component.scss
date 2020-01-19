@@ -1,0 +1,102 @@
+@import "../../styles/variables";
+
+.space-banner {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+    to right top,
+    #27262f,
+    #1f222c,
+    #161e28,
+    #0d1b23,
+    #02171e
+  );
+
+  .stelallite {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+  }
+  .ship {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    img {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+    button {
+      margin: 16px 16px 16px 0px;
+      background-color: $primary-purple;
+      color: white;
+      padding: 10px 20px;
+      background: $primary-purple;
+      border-radius: 500px;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+
+  .venus {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .moon img {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    height: 100px;
+    animation: moon 2s ease-in-out infinite;
+  }
+
+  .mars {
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+    animation: fly 10s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes moon {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-30px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translatex(0px);
+  }
+  100% {
+    transform: translatex(2200px);
+  }
+  // 100% {
+  //   transform: translatex(100%);
+  // }
+}

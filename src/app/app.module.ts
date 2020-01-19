@@ -19,8 +19,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { registerLocaleData } from "@angular/common";
 import en from "@angular/common/locales/en";
 import { AstronautComponent } from "./shared/components/astronaut/astronaut.component";
-import { EarthComponent } from './shared/components/earth/earth.component';
-import { SaturnComponent } from './shared/components/saturn/saturn.component';
+import { EarthComponent } from "./shared/components/earth/earth.component";
+import { SaturnComponent } from "./shared/components/saturn/saturn.component";
+import { BannerComponent } from "./shared/components/banner/banner.component";
+import { ShipComponent } from './shared/components/ship/ship.component';
+import { SatelliteComponent } from './shared/components/satellite/satellite.component';
+import { VenusComponent } from './shared/components/venus/venus.component';
+import { StarsComponent } from './shared/components/stars/stars.component';
 
 registerLocaleData(en);
 
@@ -38,7 +43,12 @@ registerLocaleData(en);
     FooterComponent,
     AstronautComponent,
     EarthComponent,
-    SaturnComponent
+    SaturnComponent,
+    BannerComponent,
+    ShipComponent,
+    SatelliteComponent,
+    VenusComponent,
+    StarsComponent
   ],
   imports: [
     BrowserModule,

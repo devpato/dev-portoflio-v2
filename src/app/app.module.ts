@@ -9,7 +9,6 @@ import { ExpirienceComponent } from "./expirience/expirience.component";
 import { HomeComponent } from "./home/home.component";
 import { IntroComponent } from "./intro/intro.component";
 import { SkillsComponent } from "./skills/skills.component";
-import { MarsComponent } from "./mars/mars.component";
 import { NavbarComponent } from "./shared/components/navbar/navbar.component";
 import { FooterComponent } from "./shared/components/footer/footer.component";
 import { NgZorroAntdModule, NZ_I18N, en_US } from "ng-zorro-antd";
@@ -22,10 +21,13 @@ import { AstronautComponent } from "./shared/components/astronaut/astronaut.comp
 import { EarthComponent } from "./shared/components/earth/earth.component";
 import { SaturnComponent } from "./shared/components/saturn/saturn.component";
 import { BannerComponent } from "./shared/components/banner/banner.component";
-import { ShipComponent } from './shared/components/ship/ship.component';
-import { SatelliteComponent } from './shared/components/satellite/satellite.component';
-import { VenusComponent } from './shared/components/venus/venus.component';
-import { StarsComponent } from './shared/components/stars/stars.component';
+import { ShipComponent } from "./shared/components/ship/ship.component";
+import { SatelliteComponent } from "./shared/components/satellite/satellite.component";
+import { VenusComponent } from "./shared/components/venus/venus.component";
+import { StarsComponent } from "./shared/components/stars/stars.component";
+import { RockComponent } from "./rock/rock.component";
+import { MarsComponent } from "./shared/components/mars/mars.component";
+import { MoonComponent } from './moon/moon.component';
 
 registerLocaleData(en);
 
@@ -48,7 +50,9 @@ registerLocaleData(en);
     ShipComponent,
     SatelliteComponent,
     VenusComponent,
-    StarsComponent
+    StarsComponent,
+    RockComponent,
+    MoonComponent
   ],
   imports: [
     BrowserModule,
